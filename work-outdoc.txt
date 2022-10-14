@@ -1,0 +1,5 @@
+Name: Fly. ID#: 1234. Hours: 40.0. Hours/day: 8.0. Pay: $820.0
+Name: Silvy. ID#: 1337. Hours: 25.0. Hours/day: 5.0. Pay: $512.5
+Name: Flare. ID#: 2022. Hours: 23.05. Hours/day: 4.61. Pay: $472.53
+Name: Long. ID#: 2024. Hours: 21.8. Hours/day: 4.36. Pay: $446.9
+Name: Fei. ID#: 9999. Hours: 24.4. Hours/day: 4.88. Pay: $500.2

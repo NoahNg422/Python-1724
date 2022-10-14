@@ -1,0 +1,13 @@
+WELCOME to Python!
+
+  Python is a high-level, object-oriented, interpreted programming language
+that was first introduced in 1991 by Guido Van Rossum. 
+
+  The language is popular for beginners because of its readability. When 
+interpreting a function, Python will use ':' to start a block of code and use 
+indentations to represent a code block. Since indentations are handles line-by-line, 
+the characters ; { } are not needed, unlike in Java, JavaScript, or C/C++/C#.
+
+  The first version of Python was 0.9.0, released in 1991. In 2000, Python 2.0
+was released to the public. Python 3 came out in 2008, and, as of 2022, the latest
+version of Python is Python 3.10.
