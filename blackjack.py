@@ -83,7 +83,7 @@ def main():
 
 		def play_blackjack():
 			player_name = input('Enter a name: ')
-			dealer_name = 'Fly Dragon'
+			dealer_name = 'CPU'
 			player_hand = []
 
 			player_hand.append(draw_card())
