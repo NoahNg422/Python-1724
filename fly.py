@@ -83,9 +83,6 @@ def main():
     print(ordinals(name))
     print(f'\n{reverse(name)}\n')
   print(f"Is this word a palindrome: {palindrome(name)}")
-	
-  if ('fly' in name.lower() and name[:3] == 'fly' and len(name) <= 16) or 'dragon' in name:
-    print(f'\n{name} is a \U0001f409 [dragon].')
 
   print(f"\nAre these words anagrams: {anagrams('information', 'miniantroof')}\n")
 
