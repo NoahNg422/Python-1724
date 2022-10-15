@@ -1,4 +1,3 @@
-from pyclasses import AreYou as types
 from pyclasses import LinkedList
 import random
 
@@ -53,12 +52,6 @@ def main():
     'c:\\Users\\InnOu\\OneDrive\\Documents\\PythonPrograms\\work-outdoc.txt'))
   
   print(f'\n{ris_palindrome("123 43 21")}')
-
-  print(types(1, 2, 'muscular'))
-  print(repr(types(0, 2, 'long and thin')))
-  print(repr(types(1, 2, 'muscular')))
-  print(repr(types(1, 1, 'muscular')))
-  print(repr(types(1, 2, 'long and thin')))
 
   all_nodes = generate_numbers(10)
   print(f'\n{all_nodes}\n')
