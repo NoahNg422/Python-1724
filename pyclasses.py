@@ -2,48 +2,6 @@ from collections import deque
 import random
 
 
-class AreYou:
-  def __init__(self, wings, legs, body):
-    self.wing_count = wings
-    self.leg = legs
-    self.weight = body
-  
-  def __str__(self):
-    return f'\nIf you... have {self.wing_count} pair(s) of wings, {self.leg}' \
-    f' pair(s) of legs, and are {self.weight}, you are...\n\ta dragon!'
-
-  def __repr__(self):
-    wings = self.wing_count
-    legs = self.leg
-    body = self.weight
-    print(f'\nIf you... have {wings} pair(s) of wings, {legs} pair(s)' \
-      f' of legs, and are {body}, you are...')
-    if wings == 0 and legs == 2 and body == 'muscular':
-      return '\ta drake!'
-    elif (wings == 1 or wings == 2) and legs == 1 and body == 'muscular':
-      return '\ta wyvern!'
-    elif wings == 0 and legs == 0 and body == 'long and thin':
-      return '\ta lindworm! [Wyrm]'
-    elif (wings == 1 or 2 or 3) and legs == 2 and body == 'muscular':
-      return '\tDraco Occidentalis: a western dragon! [Dragón, Draco, Drache, ...]'
-    elif wings == 0 and legs == 2 and body == 'long and thin':
-      return '\tDraco Orientalis: an eastern dragon! [Lóng, Ryū, Yong, Rồng]'
-    elif (wings == 1 or wings == 2) and legs == 2 and body == 'long and thin':
-      return '\ta hybrid [western & eastern] dragon!'
-    else:
-      return '\ta strange animal!'
-
-  def wing_type(self, typ):
-    self.wing_type = typ
-    return self.wing_type
-  
-  def body(self):
-    return self.weight
-
-  def type(self):
-    return self._type_
-
-
 class Exercise:
   _days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
   _types = ['walk', 'run', 'cycle', 'core training', 'strength training', 'pilates']
