@@ -55,21 +55,21 @@ def play(avengers):
 def main():
   logo()
   
-  FlyDragon = Hero('FlyDragon', 2_345)
-  print(f'\nFlyDragon is {FlyDragon}')
+  me = Hero('me', 2_345)
+  print(f'\nI am {me}')
 
   tom = Hero('Tom')
   sue = Hero('Sue', 333)
-  avengers = [FlyDragon, tom, sue]
+  avengers = [me, tom, sue]
   print(f'\nThe list of avengers is {avengers}')
 
-  print(f"\nFlyDragon's getters: {FlyDragon.get_name()}, {FlyDragon.get_gold()}, {FlyDragon.get_gems()}")
-  FlyDragon.set_name('Fly Dragon')
-  FlyDragon.set_gold(-999)
-  FlyDragon.set_gems({})
-  print(f'\nFlyDragon after the setters: {FlyDragon}')
+  print(f"\nMy getters: {me.get_name()}, {me.get_gold()}, {me.get_gems()}")
+  me.set_name('m. e.')
+  me.set_gold(-999)
+  me.set_gems({})
+  print(f'\nMe after the setters: {me}')
 
-  avengers = Avengers(FlyDragon)
+  avengers = Avengers(me)
   avengers = avengers.prepend(tom)
   avengers = avengers.prepend(sue)
   avengers = avengers.prepend(Hero('Jamitha'))
