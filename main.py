@@ -184,7 +184,7 @@ def main():
     i = 0 
     while i <3:
       i += 1
-      print('"I love you! \U0001f48b" \n-Fly Dragon \U0001f409')
+      print('I love you!\n')
 
 
 if __name__ == "__main__":
