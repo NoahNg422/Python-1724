@@ -71,7 +71,7 @@ def main():
 	print(city.values())
 	print(city.items())
 
-	print('\nThese animals are part of the Chinese / Vietnamese Zodiac.')
+	print('\nThese animals are part of the Chinese Zodiac.')
 	zodiac = {2017: '\U0001f413', 2018: '\U0001f415', 2019: '\U0001f417',\
 		2020: '\U0001f400', 2021: '\U0001f402', 2022: '\U0001f405',\
 		2023: '\U0001f407', 2024: '\U0001f409', 2025: '\U0001f40D',\
