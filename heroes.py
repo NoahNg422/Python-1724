@@ -45,7 +45,7 @@ def main():
   'Psychic powers'], 2022)
   print(f'\nAnother_hero:\n  {another_hero}')
 
-  me = SuperHero('Flydragon', 'Noah', 'Male', ['Hero'], ['Human'], \
+  me = SuperHero('Nodding', 'Noah', 'Male', ['Hero'], ['Human'], \
   ['Engaged Student', 'Determined', 'Expert Computer Programmer'], 2021)
   print(f'\n{me}')
 
